@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:theme="@style/AppTheme.AppBarOverlay"
+        android:theme="@style/ThemeOverlay.AppCompat"
         app:elevation="0dp">
 
 
@@ -101,7 +101,7 @@
                     app:cardBackgroundColor="#ffffe1e1"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="0dp"
-                    app:contentPadding="true">
+                    app:cardUseCompatPadding="true">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -110,7 +110,7 @@
                         android:gravity="center_vertical"
                         android:padding="10dp"
                         android:text="Surabaya, Jawa Timur"
-                        android:textColor="#ffec2d2d"
+                        android:textColor="#040404"
                         android:textSize="12sp"
                         app:drawableStartCompat="@drawable/ic_location"
                         app:drawableTint="#ffec2d2d"/>
@@ -122,9 +122,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:cardBackgoundColor="#ffd0ffdb"
+                    app:cardBackgroundColor="#D4EAD5"
                     app:cardCornerRadius="10dp"
-                    app:cardElevatoin="0dp"
+                    app:cardElevation="0dp"
                     app:cardUseCompatPadding="true">
 
                     <TextView
@@ -135,10 +135,10 @@
                         android:gravity="center_vertical"
                         android:padding="10dp"
                         android:text="Order History"
-                        android:textColor="#ff2a7e2f"
+                        android:textColor="#000000"
                         android:textSize="12sp"
                         app:drawableStartCompat="@drawable/ic_access_time"
-                        app:drawableTint="#ff2a7e2f"/>
+                        app:drawableTint="#101010"/>
 
                 </androidx.cardview.widget.CardView>
 
@@ -170,7 +170,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="18dp"
                 android:layout_marginTop="20dp"
-                android:text="New &am; Trending"
+                android:text="New &amp; Trending"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"/>
@@ -183,7 +183,10 @@
                     android:id="@+id/rvTrending"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp" />
 
             </RelativeLayout>
             
