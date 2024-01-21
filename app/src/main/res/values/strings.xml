@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Sewa Backdrop</string>
+    <string name="pesan_sekarang">Pesan Sekarang</string>
+    <string name="rp_0">Rp. 0</string>
+    <string name="_0_items">0 items</string>
+    <string name="pesan_antar_estimasi_tiba_25_min">Pesan Antar - Estimasi Tiba 25 min</string>
+    <string name="harga_tertera_untuk_1_jenis">Harga tertera untuk 1 jenis</string>
+    <string name="pastikan_alamat_penerima_sudah_benar_ya">Pastikan alamat penerima sudah benar ya!</string>
+    <string name="rp_21_000">Rp 21.000</string>
+    <string name="rp_10_500">Rp 10.500</string>
+    <string name="paket_1">Paket 1</string>
+    <string name="promo_50">Promo 50%</string>
+    <string name="paket_2">Paket 2</string>
+    <string name="riwayat_pesanan">Riwayat Pesanan</string>
+    <string name="oops_kamu_belum_order_apapun">Oops, kamu belum order apapun!</string>
+    <string name="complete_package">Complete Package</string>
+    <string name="pesan_lagi">Pesan Lagi</string>
+    <string name="tanggal_pesan">Tanggal Pesan</string>
+    <string name="pesanan_sudah_diantar">Pesanan sudah diantar</string>
+    <string name="jumlah_pesanan">Jumlah Pesanan</string>
+    <string name="harga_model">harga Model</string>
+    <string name="model_backdrop">Model Backdrop</string>
+    <string name="_2_300_disukai">2.300 disukai</string>
 </resources>

@@ -61,9 +61,9 @@
                         android:layout_centerVertical="true"
                         android:layout_marginStart="10dp"
                         android:layout_toEndOf="@+id/imgPlace"
-                        android:text="Pastikan alamat penerima sudah benar ya!"
+                        android:text="@string/pastikan_alamat_penerima_sudah_benar_ya"
                         android:textColor="@android:color/white"
-                        android:textSize="14dp"
+                        android:textSize="14sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
@@ -95,7 +95,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Harga tertera untuk 1 jenis"
+                            android:text="@string/harga_tertera_untuk_1_jenis"
                             android:textColor="@android:color/black"
                             android:textSize="18sp"
                             android:textStyle="bold"/>
@@ -103,9 +103,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Pesan Antar - Estimasi Tiba 25 min"
+                            android:text="@string/pesan_antar_estimasi_tiba_25_min"
                             android:textColor="@android:color/black"
-                            android:textSize="12dp"/>
+                            android:textSize="12sp"/>
 
                     </LinearLayout>
 
@@ -144,7 +144,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="0 items"
+                android:text="@string/_0_items"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
@@ -155,7 +155,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="end"
-                android:text="Rp. 0"
+                android:text="@string/rp_0"
                 android:textColor="@color/black"/>
 
         </LinearLayout>
@@ -170,7 +170,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="30dp"
-            android:text="Pesan Sekarang"
+            android:text="@string/pesan_sekarang"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="16sp"
